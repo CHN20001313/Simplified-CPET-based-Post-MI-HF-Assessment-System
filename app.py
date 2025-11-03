@@ -7,7 +7,7 @@ import xgboost as xgb
 import time
 # 加载模型
 model = xgb.Booster()
-model.load_model("D:/research paper/xghxs/修改心梗后心衰/混合指标/投稿1 EJPC/修稿/再次修稿/Simplified CPET-based Post-MI HF Assessment System/xgboost_model.model")
+model.load_model("xgboost_model.model")
 # 设置页面宽度
 st.set_page_config(layout="wide")
 
