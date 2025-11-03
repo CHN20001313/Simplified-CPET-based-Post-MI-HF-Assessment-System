@@ -8,7 +8,6 @@ import time
 # 加载模型
 model = xgb.Booster()
 model.load_model("xgboost_model.model")
-
 # 设置页面宽度
 st.set_page_config(layout="wide")
 
