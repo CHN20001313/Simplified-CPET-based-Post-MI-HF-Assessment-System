@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import shap
 import xgboost as xgb
 import time
+pip show xgboost
+
 # 加载模型
 model = xgb.Booster()
 model.load_model("xgboost_model.model")
